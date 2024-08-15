@@ -54,10 +54,10 @@ const fetchProducts = (category) => {
                 {products.map(product => (
 
                     <div key={product.id} className="CardProd">
-                        <img src={product.img} alt={product.name} className="ImageProd" />
+                        <img src={product.img} alt={product.name} id="ImageProd" />
                         <div className="InfoProd">
                             <h3 className="NameProd">{product.name}</h3>
-                            <p className="DescriptionProd">{product.description}</p>
+                            {/* <p className="DescriptionProd">{product.description}</p> */}
                             <p className="PriceProd">${product.price}</p>
                             <div className="ActionsProd">
                                 <button onClick={() => { addToCart(product); setCartCount(cartCount + 1) }} className="add-to-cart-button">Añadir al carrito</button>
