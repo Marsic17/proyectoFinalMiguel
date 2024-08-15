@@ -1,0 +1,83 @@
+.checkOut-container {
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.checkOutDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.checkOutList {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.checkOutItem {
+  display: flex;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.checkOutImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  margin-right: 15px;
+}
+
+.checkOutInfo {
+  flex: 1;
+}
+
+.checkOutName {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.checkOutDescription, .checkOutPrice {
+  font-size: 14px;
+  color: #666;
+}
+
+.clearCartButton, .checkOutButton {
+  padding: 10px 15px;
+  background-color: #058f55;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px;
+  
+}
+
+.clearCartButton:hover, .checkOutButton:hover {
+  background-color: #0dad7d;
+}
+
+.home {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #0b976d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.home:hover {
+  background-color: #0db67e;
+}
+
+  
